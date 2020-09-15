@@ -3,10 +3,10 @@
     <Header></Header>
     <main>
       <div class="nav">
-        <div class="city">
+        <router-link tag="div" to="/movie/city" class="city">
           <span>大连</span>
           <i class="iconfont icon-lower-triangle"></i>
-        </div>
+        </router-link>
         <div class="play">
           <router-link tag="div" to="/movie/nowplaying" active-class="active">正在热映</router-link>
           <router-link tag="div" to="/movie/comingsoon" active-class="active">即将上映</router-link>
